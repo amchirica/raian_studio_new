@@ -34,17 +34,17 @@ export default function StudioPage() {
     {
       category: "Camere",
       items: [
-        { name: "Sony Alpha A7 IV", description: "Cameră full-frame de 33MP" },
-        { name: "Canon EOS R5", description: "Cameră full-frame de 45MP" },
-        { name: "Nikon Z9", description: "Cameră flagship de 45.7MP" },
+        { name: "Sony ", description: "Cameră " },
+        { name: "Canon ", description: "Cameră " },
+        { name: "Nikon ", description: "Cameră " },
       ],
     },
     {
       category: "Obiective",
       items: [
-        { name: "Sony 24-70mm f/2.8 GM", description: "Obiectiv zoom standard" },
-        { name: "Canon RF 50mm f/1.2L USM", description: "Obiectiv prime pentru portrete" },
-        { name: "Nikon Z 14-24mm f/2.8 S", description: "Obiectiv ultra-wide pentru peisaje" },
+        { name: "Sony ", description: "Obiectiv " },
+        { name: "Canon RF ", description: "Obiectiv " },
+        { name: "Nikon Z ", description: "Obiectiv " },
       ],
     },
     {
@@ -68,24 +68,24 @@ export default function StudioPage() {
   // Studio spaces
   const spaces = [
     {
-      name: "Studio Principal",
+      name: "Studioul foto-video principal",
       description:
-        "Un spațiu de 120 mp cu tavan înalt, perfect pentru ședințe foto de modă, portrete și Fotografii comercială.",
+        "Un spațiu de 17 mp cu tavan înalt, perfect pentru ședințe foto-video de modă, portrete, comerciale",
       image: "/placeholder.svg?height=600&width=800",
-      features: ["Sistem de iluminare profesional", "Fundaluri multiple", "Zonă de machiaj", "Garderobă"],
+      features: ["Sistem de iluminare profesional", "Fundaluri și decoruri multiple", "Zonă de machiaj", "Garderobă"],
     },
     {
-      name: "Studio Cyclorama",
-      description: "Un studio cu cyclorama albă de 80 mp, ideal pentru Fotografii de produs și videoclipuri.",
+      name: "Studio podcast/interviu",
+      description: "Un studio profesional și antifonat de 16 mp, ideal pentru interviuri, podcasturi, creare de continut video SM, etc",
       image: "/placeholder.svg?height=600&width=800",
-      features: ["Cyclorama albă", "Sistem de șine pentru lumini", "Control complet al luminii", "Podea epoxidică"],
+      features: ["Scaune și mobiler", "Sistem de șine pentru lumini", "Control complet al luminii", "Echipamente și accesorii audio-video"],
     },
     {
       name: "Studio Lifestyle",
       description:
-        "Un spațiu de 60 mp amenajat ca un apartament modern, perfect pentru ședințe foto lifestyle și de familie.",
+        "Un spațiu de 20 mp amenajat ca un decor modern, perfect pentru ședințe foto lifestyle, de familie, pregătirea mirilor",
       image: "/placeholder.svg?height=600&width=800",
-      features: ["Mobilier modern", "Bucătărie funcțională", "Lumină naturală", "Decor versatil"],
+      features: ["Mobilier modern", "Lumină naturală cât și artificială", "Decor versatil"],
     },
   ]
 
@@ -99,15 +99,15 @@ export default function StudioPage() {
             <div className="max-w-2xl space-y-4">
               <Badge className="bg-primary text-primary-foreground px-3 py-1 text-sm">Studio Profesional</Badge>
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
-                Studioul Nostru de Fotografii
+                Raian Fine Arts | Gallery
               </h1>
               <p className="text-muted-100 md:text-xl text-white/80">
-                Un spațiu creativ complet echipat pentru toate nevoile tale fotografice.
+                Un hub creativ complet echipat pentru toate nevoile tale vizuale.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 pt-2">
                 <Button size="lg" asChild className="group">
                   <Link href="#spaces">
-                    Explorează Studioul
+                    Explorează studioul
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </Button>
@@ -117,7 +117,7 @@ export default function StudioPage() {
                   className="bg-white/10 text-white border-white/20 hover:bg-white/20"
                   asChild
                 >
-                  <Link href="/contact">Rezervă Studioul</Link>
+                  <Link href="/contact">Rezervă acum!</Link>
                 </Button>
               </div>
             </div>
@@ -137,19 +137,19 @@ export default function StudioPage() {
           >
             <motion.div variants={fadeIn} className="space-y-6">
               <Badge variant="outline" className="border-primary text-primary">
-                Despre Studioul Nostru
+                Despre studio
               </Badge>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Un Spațiu Creativ de Top</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Un hub creativ de top</h2>
               <p className="text-muted-foreground">
-                Studioul nostru de Fotografii, situat în inima orașului, oferă un spațiu creativ de 300 mp, complet
+                Hub-ul nostru este situat în inima orașului, oferă un spațiu creativ de până la 100 mp, complet
                 echipat cu cele mai noi tehnologii și echipamente profesionale. Creat pentru a satisface nevoile
                 fotografilor, videografilor și creatorilor de conținut, studioul nostru combină funcționalitatea cu
                 estetica pentru a oferi un mediu inspirațional.
               </p>
               <p className="text-muted-foreground">
-                Cu multiple zone de Fotografiire, inclusiv un studio principal, un studio cu cyclorama și un spațiu
+                Cu multiple zone de fotografieire, inclusiv un studio principal, un studio de podcast și un spațiu
                 lifestyle, putem acomoda o varietate de proiecte, de la ședințe foto de modă și portrete, până la
-                Fotografii de produs și videoclipuri comerciale.
+                proiecte comerciale și videoclipuri pentru creatorii de conținut.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-2">
                 <div className="flex items-center gap-2">
@@ -157,7 +157,7 @@ export default function StudioPage() {
                     <Camera className="h-5 w-5" />
                   </div>
                   <div>
-                    <p className="font-medium">Echipament Profesional</p>
+                    <p className="font-medium">Echipament profesional</p>
                     <p className="text-sm text-muted-foreground">Camere și obiective de top</p>
                   </div>
                 </div>
@@ -166,7 +166,7 @@ export default function StudioPage() {
                     <MapPin className="h-5 w-5" />
                   </div>
                   <div>
-                    <p className="font-medium">Locație Centrală</p>
+                    <p className="font-medium">Locație centrală</p>
                     <p className="text-sm text-muted-foreground">Ușor accesibil</p>
                   </div>
                 </div>
@@ -175,7 +175,7 @@ export default function StudioPage() {
                     <Phone className="h-5 w-5" />
                   </div>
                   <div>
-                    <p className="font-medium">Asistență Tehnică</p>
+                    <p className="font-medium">Asistență tehnică</p>
                     <p className="text-sm text-muted-foreground">Suport pe tot parcursul</p>
                   </div>
                 </div>
@@ -240,9 +240,9 @@ export default function StudioPage() {
             variants={fadeIn}
           >
             <Badge variant="outline" className="border-primary text-primary">
-              Spații de Studio
+              Spații de studio
             </Badge>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Spații Versatile pentru Orice Proiect</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Spații versatile pentru orice proiect</h2>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
               Studioul nostru oferă multiple spații configurabile pentru a se adapta perfect nevoilor tale creative.
             </p>
@@ -298,9 +298,9 @@ export default function StudioPage() {
             <Badge variant="outline" className="border-primary text-primary">
               Echipament
             </Badge>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Echipament Profesional</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Echipament profesional</h2>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-              Studioul nostru este echipat cu cele mai noi și performante echipamente fotografice și video.
+              Studioul nostru este echipat cu cele mai noi și performante echipamente foto-video.
             </p>
           </motion.div>
 
@@ -355,7 +355,7 @@ export default function StudioPage() {
             viewport={{ once: true }}
             variants={fadeIn}
           >
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Gata să Rezervi Studioul?</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Gata să rezervi studioul?</h2>
             <p className="mx-auto max-w-[700px] md:text-xl text-white/80">
               Contactează-ne pentru a verifica disponibilitatea și a rezerva studioul pentru proiectul tău.
             </p>
@@ -372,7 +372,7 @@ export default function StudioPage() {
                 className="bg-white/10 text-white border-white/20 hover:bg-white/20"
                 asChild
               >
-                <Link href="/offers">Vezi Prețurile</Link>
+                <Link href="/offers">Vezi prețurile</Link>
               </Button>
             </div>
           </motion.div>

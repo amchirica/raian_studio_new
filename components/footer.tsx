@@ -7,7 +7,7 @@ export function Footer() {
       <div className="container flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex flex-col items-center md:items-start">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Spectrum gallery. Toate drepturile rezervate.
+            &copy; {new Date().getFullYear()} Raian Fine Arts. Toate drepturile rezervate.
           </p>
         </div>
         <div className="flex items-center gap-4">

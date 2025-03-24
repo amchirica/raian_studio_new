@@ -1,7 +1,7 @@
 import { VideoGallery } from "@/components/video-gallery"
 
 export const metadata = {
-  title: "Foto-Video | Spectrum",
+  title: "Foto-Video | Raian",
   description: "Explorează galeria noastră de videoclipuri profesionale",
 }
 

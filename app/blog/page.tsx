@@ -4,7 +4,7 @@ import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 
 export const metadata = {
-  title: "Foto-Video | Spectrum",
+  title: "Foto-Video | Raian",
   description: "Articole și sfaturi despre Fotografii și videografie",
 }
 
@@ -78,7 +78,7 @@ export default function BlogPage() {
       <div className="mb-12 text-center">
         <h1 className="mb-4 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Blog</h1>
         <p className="mx-auto max-w-[700px] text-muted-foreground md:text-lg">
-          Articole, sfaturi și inspirație din lumea Fotografiii și videografiei.
+          Articole, sfaturi și inspirație din lumea fotografiei și videografiei.
         </p>
       </div>
 

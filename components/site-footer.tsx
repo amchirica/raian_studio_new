@@ -25,10 +25,6 @@ export function SiteFooter() {
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
-              </Link>
             </div>
           </div>
           <div className="space-y-3">
@@ -76,12 +72,12 @@ export function SiteFooter() {
             <ul className="space-y-2">
               <li>
                 <Link href="/gallery" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Fotograf & videograf nuntă
+                  Foto-video nuntă
                 </Link>
               </li>
               <li>
                 <Link href="/studio" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Sesiuni foto-video comerciale
+                  Studio foto-video
                 </Link>
               </li>
               <li>
@@ -90,8 +86,8 @@ export function SiteFooter() {
                 </Link>
               </li>
               <li>
-                <Link href="/gallery" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Sesiuni nuntă studio
+                <Link href="/print" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  Editare și tipografie
                 </Link>
               </li>
             </ul>

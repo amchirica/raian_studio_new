@@ -120,10 +120,10 @@ export function ContactForm() {
                   </SelectTrigger>
                 </FormControl>
                 <SelectContent>
-                  <SelectItem value="nunta">Fotograf & videograf nuntă</SelectItem>
-                  <SelectItem value="eveniment">Foto-video de eveniment</SelectItem>
-                  <SelectItem value="portret">Sesiune foto-video studio</SelectItem>
-                  <SelectItem value="video">Servicii video(podcast)</SelectItem>
+                  <SelectItem value="nunta">Foto-video nuntă</SelectItem>
+                  <SelectItem value="eveniment">Studio foto-video</SelectItem>
+                  <SelectItem value="portret">Studio podcast-vlogging</SelectItem>
+                  <SelectItem value="video">Editare și tipografie</SelectItem>
                   <SelectItem value="altele">Altele</SelectItem>
                 </SelectContent>
               </Select>

@@ -84,7 +84,7 @@ export default function StudioDetailPage() {
       { name: "Fundaluri de hârtie", quantity: 8 },
     ],
     availability: [
-      { date: "Luni - Vineri", hours: "9:00 - 21:00" },
+      { date: "Luni - Vineri", hours: "10:00 - 21:00" },
       { date: "Sâmbătă", hours: "10:00 - 18:00" },
       { date: "Duminică", hours: "Închis (disponibil la cerere)" },
     ],

@@ -48,7 +48,7 @@
     "input-otp": "1.4.1",
     "lucide-react": "^0.454.0",
     "my-v0-project": "file:",
-    "next": "18.20.6",
+    "next": "15.1.0",
     "next-themes": "latest",
     "react": "^18.3.1",
     "react-day-picker": "8.10.1",

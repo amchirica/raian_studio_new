@@ -29,6 +29,12 @@ const staggerContainer = {
 }
 
 export default function PrintPage() {
+
+  
+
+
+
+
   // Print services
   const services = [
     {
@@ -41,31 +47,31 @@ export default function PrintPage() {
         "Finisaj lucios sau mat",
         "Culori vibrante și detalii clare",
       ],
-      price: "de la 15 RON",
+      price: "de la 20 RON",
     },
     {
       title: "Printuri Fine Art",
-      description: "Printuri artistice pe hârtie texturată de calitate muzeală",
+      description: "Printuri artistice pe hârtie texturată de calitate supeioară",
       icon: Printer,
       features: [
         "Dimensiuni de la 20x30 cm până la 60x90 cm",
         "Hârtie texturată de calitate muzeală",
-        "Durabilitate de peste 100 de ani",
+        "Durabilitate ridicată",
         "Reproducere exactă a culorilor",
       ],
-      price: "de la 150 RON",
+      price: "de la 180 RON",
     },
     {
-      title: "Albume Foto",
+      title: "Albume foto",
       description: "Albume personalizate cu design profesional și materiale premium",
       icon: Package,
       features: [
-        "Formate de la 20x20 cm până la 30x30 cm",
+        "Formate de la 25x25 cm până la 30x30 cm",
         "Coperți personalizabile din piele sau material textil",
         "Pagini groase, rezistente la îndoire",
         "Design profesional inclus",
       ],
-      price: "de la 350 RON",
+      price: "de la 450 RON",
     },
   ]
 
@@ -83,12 +89,12 @@ export default function PrintPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/30 flex items-center">
           <div className="container px-4 md:px-6">
             <div className="max-w-2xl space-y-4">
-              <Badge className="bg-primary text-primary-foreground px-3 py-1 text-sm">Servicii de Print</Badge>
+              <Badge className="bg-primary text-primary-foreground px-3 py-1 text-sm">Servicii de print</Badge>
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
-                Transformă Amintirile în Opere de Artă
+                Transformă imaginile digitale în fotografii
               </h1>
               <p className="text-muted-100 md:text-xl text-white/80">
-                Servicii profesionale de print pentru fotografiile tale prețioase, de la printuri standard la albume
+                Servicii profesionale de print pentru fotografiile tale, de la printuri standard la albume
                 personalizate.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 pt-2">
@@ -104,7 +110,7 @@ export default function PrintPage() {
                   className="bg-white/10 text-white border-white/20 hover:bg-white/20"
                   asChild
                 >
-                  <Link href="/contact">Solicită o Ofertă</Link>
+                  <Link href="/contact">Solicită o ofertă</Link>
                 </Button>
               </div>
             </div>
@@ -123,11 +129,11 @@ export default function PrintPage() {
             variants={fadeIn}
           >
             <Badge variant="outline" className="border-primary text-primary">
-              Serviciile Noastre
+              Print
             </Badge>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Servicii de Print Premium</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Servicii de noastre</h2>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-              Oferim o gamă variată de servicii de print pentru a transforma fotografiile tale în amintiri tangibile.
+              Oferim o gamă variată de servicii de print pentru fotografiile digitale.
             </p>
           </motion.div>
 
@@ -158,7 +164,7 @@ export default function PrintPage() {
                     <div className="mt-auto">
                       <p className="font-bold text-lg">{service.price}</p>
                       <Button className="w-full mt-4" asChild>
-                        <Link href="/contact">Solicită o Ofertă</Link>
+                        <Link href="/contact">Contact</Link>
                       </Button>
                     </div>
                   </CardContent>
@@ -180,9 +186,9 @@ export default function PrintPage() {
             variants={fadeIn}
           >
             <Badge variant="outline" className="border-primary text-primary">
-              Procesul Nostru
+              Procesul nostru
             </Badge>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Cum Funcționează</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Cum funcționează?</h2>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
               Procesul nostru simplu și eficient pentru a obține printuri de calitate.
             </p>
@@ -198,23 +204,23 @@ export default function PrintPage() {
             {[
               {
                 step: "01",
-                title: "Încarcă Fotografiile",
+                title: "Încarcă sau trimite-ne fotografiile",
                 description: "Încarcă fotografiile tale prin formularul nostru online sau trimite-le prin email.",
               },
               {
                 step: "02",
-                title: "Alege Serviciul",
+                title: "Precizează serviciul",
                 description: "Selectează tipul de print, dimensiunea și finisajul dorit.",
               },
               {
                 step: "03",
-                title: "Revizuire și Confirmare",
-                description: "Verifică comanda și confirmă detaliile înainte de procesare.",
+                title: "Confirmare și plată",
+                description: "Verifică comanda și efectueză plata înainte de procesare.",
               },
               {
                 step: "04",
                 title: "Livrare",
-                description: "Primește printurile tale de calitate direct la ușa ta.",
+                description: "Te așteptăm în studio pentru ridicarea comenzii",
               },
             ].map((item, index) => (
               <motion.div key={index} variants={fadeIn} className="text-center">
@@ -240,16 +246,16 @@ export default function PrintPage() {
             variants={fadeIn}
           >
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Gata să Transformi Fotografiile Tale?
+              
             </h2>
             <p className="mx-auto max-w-[700px] md:text-xl text-white/80">
-              Contactează-ne astăzi pentru a discuta despre nevoile tale de print și pentru a primi o ofertă
-              personalizată.
+              
+              
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button size="lg" variant="secondary" asChild className="group">
                 <Link href="/contact">
-                  Contactează-ne Acum
+                  Contactează-ne pentru mai multe infromații!
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Link>
               </Button>

@@ -55,7 +55,7 @@ export default function HomePage() {
               <motion.div className="flex flex-col sm:flex-row gap-3" variants={fadeIn}>
                 <Button size="lg" asChild className="group">
                   <Link href="/gallery">
-                    Vezi Galeria
+                    Vezi galeria
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </Button>
@@ -65,7 +65,7 @@ export default function HomePage() {
                   className="bg-white/10 text-white border-white/20 hover:bg-white/20"
                   asChild
                 >
-                  <Link href="/contact">Programează o Ședință</Link>
+                  <Link href="/contact">Programează o ședință</Link>
                 </Button>
               </motion.div>
             </motion.div>
@@ -85,7 +85,7 @@ export default function HomePage() {
           >
             <div className="space-y-2">
               <Badge variant="outline" className="border-primary text-primary">
-                Lucrări Reprezentative
+                Lucrări reprezentative
               </Badge>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                 Explorează lucrările noastre!
@@ -258,9 +258,9 @@ export default function HomePage() {
               <Badge variant="outline" className="border-primary text-primary">
                 Testimoniale
               </Badge>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Ce Spun Clienții</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Ce spun clienții</h2>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                Ascultă părerile celor care au experimentat serviciile noastre de Fotografii.
+                Ascultă părerile celor care au experimentat serviciile noastre.
               </p>
             </div>
           </motion.div>
@@ -370,7 +370,7 @@ export default function HomePage() {
               <Badge variant="outline" className="border-primary text-primary">
                 Din blog
               </Badge>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Articole Recente</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Articole recente</h2>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
                 Sfaturi de fotografii, povești din culise și multe altele.
               </p>

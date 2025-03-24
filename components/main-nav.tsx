@@ -22,7 +22,7 @@ export function MainNav() {
     return (
       <div className="flex w-full items-center justify-between">
         <Link href="/" className="text-xl font-bold">
-          Spectrum gallery
+          Raian Fine Arts
         </Link>
         <Sheet>
           <SheetTrigger asChild>
@@ -52,7 +52,7 @@ export function MainNav() {
   return (
     <div className="flex w-full items-center justify-between">
       <Link href="/" className="text-xl font-bold">
-        Spectrum gallery
+        Raian Fine Arts
       </Link>
       <nav className="flex gap-6">
         {navItems.map((item) => (

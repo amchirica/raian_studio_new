@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Mail, Phone, MapPin, Clock } from "lucide-react"
 
 export const metadata = {
-  title: "Foto-Video | Spectrum",
+  title: "Foto-Video | Raian",
   description: "Contactează-ne pentru servicii de Fotografii și videografie",
 }
 

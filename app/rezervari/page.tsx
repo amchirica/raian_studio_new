@@ -52,11 +52,11 @@ export default function ReservationPage() {
 
   // Services
   const services = [
-    { id: "portrait", name: "Ședință Foto Portret" },
-    { id: "wedding", name: "Fotografii de Nuntă" },
-    { id: "event", name: "Acoperire Eveniment" },
-    { id: "studio", name: "Închiriere Studio" },
-    { id: "product", name: "Fotografii de Produs" },
+    { id: "portrait", name: "Studio foto-video comercial" },
+    { id: "wedding", name: "Sesiune foto-video nuntă" },
+    { id: "event", name: "Studio podcast-vlogging" },
+    { id: "studio", name: "Închiriere Studio foto-video" },
+    { id: "product", name: "Editare și tipografie" },
   ]
 
   // Load reservations from localStorage
@@ -71,9 +71,9 @@ export default function ReservationPage() {
   useEffect(() => {
     if (!date) return
 
-    // Business hours: 9 AM to 6 PM
+    // Business hours: 10 AM to 6 PM
     const slots: TimeSlot[] = []
-    const startHour = 9
+    const startHour = 10
     const endHour = 18
 
     // Generate hourly slots
@@ -388,7 +388,7 @@ export default function ReservationPage() {
                 !date || !selectedTime || !formData.name || !formData.email || !formData.phone || !formData.service
               }
             >
-              Finalizează Rezervarea
+              Finalizează rezervarea
             </Button>
           </CardFooter>
         </Card>
@@ -401,7 +401,7 @@ export default function ReservationPage() {
             <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center text-primary mb-4">
               <CalendarIcon className="h-6 w-6" />
             </div>
-            <h3 className="text-lg font-medium mb-2">Program de Lucru</h3>
+            <h3 className="text-lg font-medium mb-2">Program de lucru</h3>
             <ul className="space-y-1 text-muted-foreground">
               <li>Luni - Vineri: 10:00 - 18:00</li>
               <li>Sâmbătă: 12:00 - 16:00</li>
@@ -432,7 +432,7 @@ export default function ReservationPage() {
                 <line x1="10" y1="9" x2="8" y2="9" />
               </svg>
             </div>
-            <h3 className="text-lg font-medium mb-2">Politica de eezervare</h3>
+            <h3 className="text-lg font-medium mb-2">Politica de rezervare</h3>
             <ul className="space-y-1 text-muted-foreground">
               <li>Rezervare cu minim 48h înainte</li>
               <li>Anulare gratuită cu 48h înainte</li>
@@ -461,7 +461,7 @@ export default function ReservationPage() {
                 <line x1="12" y1="17" x2="12.01" y2="17" />
               </svg>
             </div>
-            <h3 className="text-lg font-medium mb-2">Ai Întrebări?</h3>
+            <h3 className="text-lg font-medium mb-2">Ai întrebări?</h3>
             <p className="text-muted-foreground mb-4">
               Pentru orice nelămurire sau cerere specială, nu ezita să ne contactezi.
             </p>

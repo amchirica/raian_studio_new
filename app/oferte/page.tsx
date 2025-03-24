@@ -4,47 +4,61 @@ import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
 import { Check } from "lucide-react"
 
 export const metadata = {
-  title: "Foto-Video | Spectrum",
-  description: "Pachete și oferte pentru servicii de Fotografii și videografie",
+  title: "Foto-Video | Raian",
+  description: "Pachete și oferte pentru servicii de fotografie și videografie",
 }
 
 export default function OfertePage() {
   const pricingPlans = [
     {
-      name: "Pachet Basic",
-      price: "1.500",
-      description: "Perfect pentru evenimente mici și ședințe foto de bază",
-      features: ["4 ore de Fotografiire", "100 fotografii editate", "Fotografii online privată", "Livrare în 14 zile"],
-      cta: "Alege Pachetul Basic",
+      name: "Pachetul Economic",
+      price: "8.400",
+      description: "Perfect pentru evenimente mici cu ședințe foto-video de bază",
+      features: [
+        "11-13 ore de activitate", 
+        "1 fotograf & 1 videograf",
+        "fotografierea și filmarea nelimitată", 
+        "stocarea materialului timp de 1 an", 
+        "predare 1200 fotografii editate & 60 de minute de filmare", 
+        "predare materialului în galerie online", 
+        "film highlight și same week edit", 
+        "livrare în 70-90 de zile"],
+      cta: "Alege pachetul Economic",
       popular: false,
     },
     {
-      name: "Pachet Premium",
-      price: "3.500",
+      name: "Pachet Standard",
+      price: "9.900",
       description: "Ideal pentru nunți și evenimente importante",
       features: [
-        "10 ore de Fotografiire",
-        "2 fotografi",
-        "400 fotografii editate",
-        "Album foto 30x30cm (20 pagini)",
-        "Fotografii online privată",
-        "Livrare în 10 zile",
+        "12-14 ore activitate",
+        "1 fotograf & 1 videograf",
+        "fotografierea și filmarea nelimitată",
+        "stocarea materialului timp de 1 an",
+        "predarea 1500 fotografii editate & 60-80 de minute de filmare",
+        "predarea materialului în galerie online",
+        "cadre foto-video din dronă",
+        "film highlight și same week edit",
+        "livrare în 70-90 de zile",
       ],
-      cta: "Alege Pachetul Premium",
+      cta: "Alege pachetul Standard",
       popular: true,
     },
     {
-      name: "Pachet Complet",
-      price: "5.500",
-      description: "Soluția completă pentru evenimente speciale",
+      name: "Pachet Premium",
+      price: "11.900",
+      description: "Soluția completă pentru evenimente speciale mari",
       features: [
-        "Acoperire completă a evenimentului",
-        "2 fotografi + 1 videograf",
-        "500+ fotografii editate",
-        "Film highlight (5-7 minute)",
-        "Album foto premium 35x35cm (30 pagini)",
-        "Fotografii online privată",
-        "Livrare în 7 zile",
+        "15-16 ore de activitate",
+        "1 fotografi + 1 videograf + 1 asistent",
+        "fotografierea și filmarea nelimitată",
+        "stocarea materialulul timp de 1 an",
+        "predarea 1800 fotografii editate & minim 90-100 de minute de filmare",
+        "predarea materialului în galerie online și stick",
+        "cadre foto-video din dronă",
+        "film highlight și same week edit",
+        "album foto premium 25x25cm (20-22 pagini)",
+        "livrare în 70-90 zile",
       ],
       cta: "Alege Pachetul Complet",
       popular: false,
@@ -54,7 +68,7 @@ export default function OfertePage() {
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="mb-12 text-center">
-        <h1 className="mb-4 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Oferte și Pachete</h1>
+        <h1 className="mb-4 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Oferte și pchete</h1>
         <p className="mx-auto max-w-[700px] text-muted-foreground md:text-lg">
           Alege pachetul care se potrivește cel mai bine nevoilor tale. Toate pachetele pot fi personalizate.
         </p>

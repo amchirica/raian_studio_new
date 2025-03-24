@@ -9,7 +9,7 @@ import "@/app/globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Foto-Video | Spectrum",
+  title: "Foto-Video | Raian",
   description: "Professional photography services for all your needs",
   generator: "v0.dev",
 }
